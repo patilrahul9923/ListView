@@ -22,8 +22,5 @@ public class ListViewDemo extends AppCompatActivity {
         ArrayAdapter<String> myArray=new ArrayAdapter<>(context,android.R.layout.simple_list_item_1,cities);
         lvList.setAdapter(myArray);
 
-
-
-
-    }
+        }
 }
